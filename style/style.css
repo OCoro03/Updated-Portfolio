@@ -1,16 +1,14 @@
+
 .work {
   /* Positioning */
   position: relative;
-  float: left;
+  float: center;
 
   /* Box-model */
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
-}
-
-.work:nth-child(even) {
-  margin-right: 40px;
+  
 }
 
 .work img {
@@ -18,10 +16,8 @@
   width: 100%;
 
   /* Visual */
-  border: 0 none;
-
-  /* Misc */
-  opacity: 0.8;
+  /* border: 0 none; */
+  
 }
 
 .work h3 {
@@ -41,44 +37,6 @@
   color: #fff;
   text-align: center;
   background: #4aaaa5;
-
-  /* Visual */
-  border-bottom: 0;
-}
-.auth-image {
-  float: left;
-
-  /* Box-model */
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-
-  /* Positioning */
-  margin-right: 25px;
-}
-main {
-  /* padding-top: 130px; */
 }
 
-.main-section {
-  
 
-  /* Box-model */
-  padding: 30px;
-
-  /* Positioning */
-  margin: 0 0 40px;
-  background: #fff;
-
-  /* Visual */
-  border: 1px solid #ddd;
-}
-.container {
-  /* Box-model */
-  width: 100%;
-  max-width: 960px;
-
-  /* Positioning */
-  margin: 0 auto;
-  clear: both;
-}
